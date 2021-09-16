@@ -1627,7 +1627,7 @@
       </v-row>
       <v-row >
           <v-col cols="6" sm="4" md="4">
-            <v-card class="mx-auto pb-2" width="98%" :elevation="6">
+            <v-card class="mx-auto pb-2 mb-4 mr-0" width="95%" :elevation="6">
               <div class="mb-2">
                 <v-carousel
                 height="200"
@@ -1686,7 +1686,7 @@
             </v-card>
           </v-col>
           <v-col cols="6" sm="4" md="4">
-            <v-card class="mx-auto pb-2" width="98%" :elevation="6">
+            <v-card class="mx-auto pb-2 mb-4" width="95%" :elevation="6">
               <div class="mb-2">
                 <v-carousel
                 height="200"
@@ -1745,7 +1745,7 @@
             </v-card>
           </v-col>
           <v-col cols="6" sm="4" md="4">
-            <v-card  class="mx-auto pb-2" width="98%" :elevation="6">
+            <v-card  class="mx-auto pb-2 mb-4 ml-0" width="95%" :elevation="6">
               <div class="mb-2">
                <v-carousel
                 height="200"
