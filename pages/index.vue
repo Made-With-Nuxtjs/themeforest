@@ -1,7 +1,16 @@
 <template>
   <v-container>
     <SubHeader />
-    <HomeForest />
+    <SearchForest />
+    <CategoryForest />
+    <UniqueForest />
+    <FeatureForest />
+    <LargestForest />
+    <NewestForest />
+    <FeaturedCreatorForest />
+    <BestSellingWordpressForest />
+    <UnlimitedDownloadForest />
+    <ThisMonthFreeItemsForest />
   </v-container>
   
 </template>

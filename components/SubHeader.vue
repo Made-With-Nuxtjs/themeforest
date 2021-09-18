@@ -301,6 +301,51 @@
   </v-row>
 
 </template>
+<script>
+export default {
+  data: () => ({
+    rating: 4.3,
+    items: [
+      {
+        src: 'images/caro1.jpg',
+      },
+      {
+        src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+      },
+      {
+        src: 'images/caro2.jpg',
+      },
+      {
+        src: 'images/caro3.png',
+      },
+      {
+        src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+      },
+    ],
+  }),
+}
+</script>
+
+<style scoped>
+.theme--light.v-btn.v-btn--has-bg {
+  background-color: inherit;
+}
+.v-card--reveal {
+  align-items: center;
+  bottom: 0;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+.truncate-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+}
+</style>
 
 
 
