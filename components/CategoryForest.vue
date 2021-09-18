@@ -288,7 +288,6 @@
               <img
                 src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/home/themeforest/category-tiles-blogging-a36c3a96508905ed8b77df66c9e8d4cf.png"
                 alt="WordPress Themes"
-                loading="lazy"
                 width="80%"
                 height="90%"
                 class="d-block"
@@ -307,4 +306,29 @@
     </v-row>
   </v-container>
 </template>
+
+
+<style scoped>
+
+.theme--light.v-btn.v-btn--has-bg[data-v-684d2356] {
+    background-color: transparent;
+  /* background-color: inherit; */
+
+}
+.v-card--reveal {
+  align-items: center;
+  bottom: 0;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+.truncate-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+}
+</style>
 

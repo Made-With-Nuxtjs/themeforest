@@ -64,12 +64,10 @@
                     <h5 class="text--secondary">
                       <v-rating
                         v-model="rating"
-                        background-color="white"
-                        color="yellow accent-4"
-                        dense
-                        half-increments
-                        hover
+                        background-color="green lighten-3"
+                        color="yellow"
                         size="15"
+                        dense
                       ></v-rating>
                     </h5>
 
@@ -122,17 +120,13 @@
 
                 <v-card class="d-flex justify-space-between" flat tile>
                   <v-card class="px-3" flat tile>
-                    <h5 class="text--secondary">
-                      <v-rating
-                        v-model="rating"
-                        background-color="white"
-                        color="yellow accent-4"
-                        dense
-                        half-increments
-                        hover
-                        size="15"
-                      ></v-rating>
-                    </h5>
+                    <v-rating
+                      v-model="rating"
+                      background-color="green"
+                      color="yellow accent-4"
+                      dense
+                      size="15"
+                    ></v-rating>
 
                     <h5 class="text--secondary pb-3">31 Sales</h5>
                   </v-card>
@@ -183,18 +177,13 @@
 
                 <v-card class="d-flex justify-space-between" flat tile>
                   <v-card class="px-3" flat tile>
-                    <h5 class="text--secondary">
-                      <v-rating
-                        v-model="rating"
-                        background-color="white"
-                        color="yellow accent-4"
-                        dense
-                        half-increments
-                        hover
-                        size="15"
-                      ></v-rating>
-                    </h5>
-
+                    <v-rating
+                      v-model="rating"
+                      background-color="green"
+                      color="yellow accent-4"
+                      dense
+                      size="15"
+                    ></v-rating>
                     <h5 class="text--secondary pb-3">31 Sales</h5>
                   </v-card>
                   <v-card class="px-5" flat tile dense>
@@ -244,17 +233,13 @@
 
                 <v-card class="d-flex justify-space-between" flat tile>
                   <v-card class="px-3" flat tile>
-                    <h5 class="text--secondary">
-                      <v-rating
-                        v-model="rating"
-                        background-color="white"
-                        color="yellow accent-4"
-                        dense
-                        half-increments
-                        hover
-                        size="15"
-                      ></v-rating>
-                    </h5>
+                    <v-rating
+                      v-model="rating"
+                      background-color="green"
+                      color="yellow accent-4"
+                      dense
+                      size="15"
+                    ></v-rating>
 
                     <h5 class="text--secondary pb-3">31 Sales</h5>
                   </v-card>
@@ -283,7 +268,7 @@
 <script>
 export default {
   data: () => ({
-    rating: 4.3,
+    rating: 4,
     items: [
       {
         src: 'images/caro1.jpg',

@@ -135,7 +135,7 @@
 
     <v-col class="12">
       <v-row class="pt-4 justify-center">
-        <v-col cols="6" sm="4" md="4">
+        <v-col cols="12" sm="4" md="4">
           <v-card
             flat
             class="mx-auto pb-2"
@@ -166,7 +166,7 @@
             </v-card>
           </v-card>
         </v-col>
-        <v-col cols="6" sm="4" md="4">
+        <v-col cols="12" sm="4" md="4">
           <v-card flat width="100%" height="280px" :elevation="6">
             <v-img
               src="https://themeforest.img.customer.envatousercontent.com/files/232203402/01_preview1.png?auto=compress%2Cformat&amp;fit=crop&amp;crop=top&amp;w=590&amp;h=300&amp;s=75249b822e1eec0aa6d38edc16bc4eb3"

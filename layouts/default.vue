@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app height="113" color="black">
+    <v-app-bar absolute app height="113" color="black">
       <Header />
     </v-app-bar>
     <v-main class="grey lighten-2 mb-2">
