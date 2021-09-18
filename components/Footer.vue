@@ -230,16 +230,45 @@
         </div>
       </v-row>
       <v-row>
-        <v-col class="ml-16 pl-16 mb-10">
-          <h5 class="ml-16 pl-16 mt-4">
+        <v-col cols="7" class="ml-16 pl-16 mb-9">
+          <h5 class="ml-16 pl-16 mt-3 font-weight-light">
             Price is in US dollars and excludes tax
           </h5>
-          <h5 class="ml-16 pl-15 mt-4">
-            © 2021 Envato Pty Ltd. Trademarks and brands are the property of
-            their respective owners.
+          <h5 class="ml-16 pl-15 mt-3 font-weight-light">
+            ©{{ new Date().getFullYear() }} Envato Pty Ltd. Trademarks and
+            brands are the property of their respective owners.
           </h5>
         </v-col>
-        <v-col cols="4"> </v-col>
+        <v-spacer></v-spacer>
+        <v-col>
+          <div>
+            <div class="d-inline pa-2 white--text">
+              <nuxt-link to="#" class="text-decoration-none white--text">
+                <v-icon class="white--text">mdi-twitter</v-icon></nuxt-link
+              >
+            </div>
+            <div class="d-inline pa-2 accent-4">
+              <nuxt-link to="#" class="text-decoration-none white--text">
+                <v-icon class="white--text">mdi-facebook</v-icon></nuxt-link
+              >
+            </div>
+            <div class="d-inline pa-2 accent-4">
+              <nuxt-link to="#" class="text-decoration-none white--text">
+                <v-icon class="white--text">mdi-youtube</v-icon></nuxt-link
+              >
+            </div>
+            <div class="d-inline pa-2 white--text">
+              <nuxt-link to="#" class="text-decoration-none white--text">
+                <v-icon class="white--text">mdi-instagram</v-icon></nuxt-link
+              >
+            </div>
+            <div class="d-inline pa-2 accent-4 white--text">
+              <nuxt-link to="#" class="text-decoration-none white--text">
+                <v-icon class="white--text">mdi-pinterest</v-icon></nuxt-link
+              >
+            </div>
+          </div>
+        </v-col>
       </v-row>
     </v-card>
   </v-footer>
