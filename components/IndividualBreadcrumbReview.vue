@@ -44,6 +44,11 @@
           disabled: true,
           href: 'breadcrumbs_link_2',
         },
+        {
+          text: 'Kalles - Clean, Versatile, Responsive Shopify Theme - RTL support',
+          disabled: true,
+          href: 'breadcrumbs_link_2',
+        },
       ],
     }),
   }
