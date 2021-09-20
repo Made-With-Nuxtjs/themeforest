@@ -79,7 +79,7 @@
             ></nuxt-link
           >
         </v-col>
-        <img src="code.webp" width="114" height="auto" class="mr-16" />
+        <img src="code.webp" width="113" height="35" class="mr-15" />
       </v-row>
     </v-col>
   </v-row>

@@ -6,10 +6,12 @@
           <v-col cols="6" sm="6" md="6">
             <v-hover v-slot="{ hover }">
               <v-card class="mx-auto" color="grey lighten-4" max-width="600">
+                <nuxt-link to="individualPage" class="text-decoration-none">
                 <v-img
                   :aspect-ratio="17 / 8"
                   src="https://themeforest.img.customer.envatousercontent.com/files/355123468/Preview_big30.png?auto=compress%2Cformat&amp;fit=crop&amp;crop=top&amp;w=590&amp;h=300&amp;s=fa8bf9b578df3051b45153e2d0857177"
                 >
+               
                   <v-expand-transition>
                     <div
                       v-if="hover"
@@ -24,7 +26,7 @@
                     >
                       <div>
                         <div class="d-block">
-                          <nuxt-link to="#" class="text-decoration-none">
+                          <nuxt-link to="individualPage" class="text-decoration-none">
                             Workee - Multipurpose Shopify Theme</nuxt-link
                           >
                         </div>
@@ -54,12 +56,14 @@
                     </div>
                   </v-expand-transition>
                 </v-img>
+                 </nuxt-link>
               </v-card>
             </v-hover>
           </v-col>
           <v-col cols="6" sm="6" md="6">
             <v-hover v-slot="{ hover }">
               <v-card class="mx-auto" color="grey lighten-4" max-width="600">
+                <nuxt-link to="individualPage" class="text-decoration-none">
                 <v-img
                   :aspect-ratio="17 / 8"
                   src="https://themeforest.img.customer.envatousercontent.com/files/353367507/01_preview.png?auto=compress%2Cformat&amp;fit=crop&amp;crop=top&amp;w=590&amp;h=300&amp;s=c7e46d23d9ce194594922660fabfca71"
@@ -78,7 +82,7 @@
                     >
                       <div>
                         <div class="d-block">
-                          <nuxt-link to="#" class="text-decoration-none">
+                         <nuxt-link to="individualPage" class="text-decoration-none">
                             Workee - Multipurpose Shopify Theme</nuxt-link
                           >
                         </div>
@@ -108,12 +112,14 @@
                     </div>
                   </v-expand-transition>
                 </v-img>
+                 </nuxt-link>
               </v-card>
             </v-hover>
           </v-col>
           <v-col cols="6" sm="6" md="6">
             <v-hover v-slot="{ hover }">
               <v-card class="mx-auto" color="grey lighten-4" max-width="600">
+                <nuxt-link to="individualPage" class="text-decoration-none">
                 <v-img
                   :aspect-ratio="17 / 8"
                   src="https://themeforest.img.customer.envatousercontent.com/files/272093368/01_cover.png?auto=compress%2Cformat&amp;fit=crop&amp;crop=top&amp;w=590&amp;h=300&amp;s=b1888a18ddcabfac775d3645439021e0"
@@ -162,12 +168,14 @@
                     </div>
                   </v-expand-transition>
                 </v-img>
+                 </nuxt-link>
               </v-card>
             </v-hover>
           </v-col>
           <v-col cols="6" sm="6" md="6">
             <v-hover v-slot="{ hover }">
               <v-card class="mx-auto" color="grey lighten-4" max-width="600">
+                <nuxt-link to="individualPage" class="text-decoration-none">
                 <v-img
                   :aspect-ratio="17 / 8"
                   src="https://themeforest.img.customer.envatousercontent.com/files/338376038/01_listeo.png?auto=compress%2Cformat&amp;fit=crop&amp;crop=top&amp;w=590&amp;h=300&amp;s=2ac48780a786a56610d029bdf59fd961"
@@ -186,7 +194,7 @@
                     >
                       <div>
                         <div class="d-block">
-                          <nuxt-link to="#" class="text-decoration-none">
+                          <nuxt-link to="items/individualPage" class="text-decoration-none">
                             Workee - Multipurpose Shopify Theme</nuxt-link
                           >
                         </div>
@@ -216,6 +224,7 @@
                     </div>
                   </v-expand-transition>
                 </v-img>
+                 </nuxt-link>
               </v-card>
             </v-hover>
           </v-col>
@@ -236,28 +245,24 @@
     </v-container>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    rating: 4.3,
-    items: [
-      {
-        src: 'images/caro1.jpg',
-      },
-      {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-      },
-      {
-        src: 'images/caro2.jpg',
-      },
-      {
-        src: 'images/caro3.png',
-      },
-      {
-        src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-      },
-    ],
-  }),
+<style scoped>
+.theme--light.v-btn.v-btn--has-bg {
+  background-color: inherit;
 }
-</script>
+.v-card--reveal {
+  align-items: center;
+  bottom: 0;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+.truncate-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: normal;
+}
+</style>
 

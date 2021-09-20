@@ -1,70 +1,69 @@
 <template>
   <v-footer padless>
     <v-card flat tile color="#333" width="100%">
-      <v-row  class="justify-center justify-sm-center my-10 mx-auto">
-        <v-col md="2" class="justify-sm-center ">
-            <v-card dense tile flat width="400px" height="305px">
-              <div class="mb-2">
-                <img
-                  src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-elements-4cdbf26f73c685146c1022ba56020948.jpg"
-                  alt="WordPress Themes"
-                  loading="lazy"
-                  width="100%"
-                />
-              </div>
-              <nuxt-link to="#" class="text-decoration-none text--primary">
-                <h4 class="px-5">
-                  Deliver Better Projects faster. Web design & video assets.
-                </h4>
-              </nuxt-link>
-              <nuxt-link to="#" class="text-decoration-none">
-                <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
-              </nuxt-link>
-            </v-card>
+      <v-row class="justify-center justify-sm-center my-10 mx-auto">
+        <v-col md="2" class="justify-sm-center">
+          <v-card dense tile flat width="400px" height="305px">
+            <div class="mb-2">
+              <img
+                src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-elements-4cdbf26f73c685146c1022ba56020948.jpg"
+                alt="WordPress Themes"
+                loading="lazy"
+                width="100%"
+              />
+            </div>
+            <nuxt-link to="#" class="text-decoration-none text--primary">
+              <h4 class="px-5">
+                Deliver Better Projects faster. Web design & video assets.
+              </h4>
+            </nuxt-link>
+            <nuxt-link to="#" class="text-decoration-none">
+              <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
+            </nuxt-link>
+          </v-card>
         </v-col>
         <v-col md="2">
-            <v-card tile dense flat width="400px" height="305px">
-              <div class="mb-2">
-                <img
-                  src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-placeit-825b74540871b5b7629a1b5919deb5d3.jpg"
-                  alt="WordPress Themes"
-                  loading="lazy"
-                  width="100%"
-                />
-              </div>
-              <nuxt-link to="#" class="text-decoration-none text--primary">
-                <h4 class="px-5">
-                  Deliver Better Projects faster. Web design & video assets.
-                </h4>
-              </nuxt-link>
-              <nuxt-link to="#" class="text-decoration-none">
-                <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
-              </nuxt-link>
-            </v-card>
+          <v-card tile dense flat width="400px" height="305px">
+            <div class="mb-2">
+              <img
+                src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-placeit-825b74540871b5b7629a1b5919deb5d3.jpg"
+                alt="WordPress Themes"
+                loading="lazy"
+                width="100%"
+              />
+            </div>
+            <nuxt-link to="#" class="text-decoration-none text--primary">
+              <h4 class="px-5">
+                Deliver Better Projects faster. Web design & video assets.
+              </h4>
+            </nuxt-link>
+            <nuxt-link to="#" class="text-decoration-none">
+              <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
+            </nuxt-link>
+          </v-card>
         </v-col>
         <v-col md="2">
-            <v-card tile dense flat width="400px" height="305px">
-              <div class="mb-2">
-                <img
-                  src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-studio-b49bc13fab4f3caccaabe84bf4646016.jpg"
-                  alt="WordPress Themes"
-                  loading="lazy"
-                  width="100%"
-                />
-              </div>
-              <nuxt-link to="#" class="text-decoration-none text--primary">
-                <h4 class="px-5">
-                  Deliver Better Projects faster. Web design & video assets.
-                </h4>
-              </nuxt-link>
-              <nuxt-link to="#" class="text-decoration-none">
-                <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
-              </nuxt-link>
-            </v-card>
+          <v-card tile dense flat width="400px" height="305px">
+            <div class="mb-2">
+              <img
+                src="https://assets.market-storefront.envato-static.com/storefront/packs/media/images/footer/cross-sell-studio-b49bc13fab4f3caccaabe84bf4646016.jpg"
+                alt="WordPress Themes"
+                loading="lazy"
+                width="100%"
+              />
+            </div>
+            <nuxt-link to="#" class="text-decoration-none text--primary">
+              <h4 class="px-5">
+                Deliver Better Projects faster. Web design & video assets.
+              </h4>
+            </nuxt-link>
+            <nuxt-link to="#" class="text-decoration-none">
+              <h5 class="px-5 pt-5 text--secondary">by StudioVK in photos</h5>
+            </nuxt-link>
+          </v-card>
         </v-col>
       </v-row>
     </v-card>
-
     <v-card flat tile color="#1a1a1a" class="white--text" width="100%">
       <v-row class="justify-center ma-6 mr-4">
         <v-col cols="12" sm="2">
@@ -189,7 +188,6 @@
         </v-col>
       </v-row>
       <v-divider inset class="mr-16 pr-16" color="white"></v-divider>
-
       <v-row class="justify-start mt-6 ml-15 pl-15">
         <div class="ml-16 pl-12">
           <div class="d-inline pa-2 white--text">
@@ -229,7 +227,6 @@
           </div>
         </div>
       </v-row>
-
       <v-row>
         <v-col cols="7" class="ml-15 pl-16 mb-9">
           <h5 class="ml-16 pl-16 mt-3 font-weight-light">
